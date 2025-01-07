@@ -152,6 +152,3 @@ STORAGES = {
 STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/static/'
 MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/media/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # Add your static files directory
-]
